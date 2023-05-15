@@ -4,6 +4,7 @@ def bfs(graph, root):
     visited =[root]
 
     while(queue):
+        
         vartex = queue.popleft()
         for i in graph[vartex]:   #visit all adjecent nodes of vartex
             if i not in visited:
